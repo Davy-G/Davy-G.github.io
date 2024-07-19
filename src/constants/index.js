@@ -277,7 +277,7 @@ const projects = [
     {
         name: "Online Store Manager",
         description:
-            "a project for azure certification (placed top 3 by score) allows a user to access fake store database and CREATE READ UPDATE DELETE data (with authentication)",
+            "a project for azure certification (placed top 3 by score) allows a user, to access fake store database and CREATE READ UPDATE DELETE data (with authentication)",
         tags: [
             {
                 name: "Mvc (Model View Controller)",
