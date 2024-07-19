@@ -31,10 +31,11 @@ import tesla from "./company/tesla.png";
 import linux from "./linux.png";
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
-import tripguide from "./tripguide.png";
 import manager from "./manager.png";
 import tkinter from "./tkinter.png";
 import online from "./online.png";
+import dbwf from "./dbo.png";
+import fastapi from "./fastapi.svg";
 
 export {
   logo,
@@ -64,7 +65,6 @@ export {
   tesla,
   carrent,
   jobit,
-  tripguide,
   dotnet,
   py,
     csharp,
@@ -73,5 +73,7 @@ export {
     linux,
     manager,
     tkinter,
-    online
+    online,
+    dbwf,
+    fastapi
 };

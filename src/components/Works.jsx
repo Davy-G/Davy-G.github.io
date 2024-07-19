@@ -1,12 +1,12 @@
 import React from "react";
 import {Tilt} from "react-tilt";
-import { motion } from "framer-motion";
+import {motion} from "framer-motion";
 
-import { styles } from "../styles";
-import { github } from "../assets";
-import { SectionWrapper } from "../hoc";
-import { projects } from "../constants";
-import { fadeIn, textVariant } from "../utils/motion";
+import {styles} from "../styles";
+import {github} from "../assets";
+import {SectionWrapper} from "../hoc";
+import {projects} from "../constants";
+import {fadeIn, textVariant} from "../utils/motion";
 
 const ProjectCard = ({
                          index,
@@ -80,7 +80,9 @@ const Works = () => {
                     variants={fadeIn("", "", 0.1, 1)}
                     className='mt-3 text-white text-[17px] max-w-3xl leading-[30px]'
                 >
-                    As a developer with expertise in both C# and Python, I've had the opportunity to work on a variety of projects that highlight the unique strengths and capabilities of each language. Below are a few examples of projects that demonstrate the power and versatility of C# and Python.
+                    As a developer with expertise in both C# and Python, I've had the opportunity to work on a variety
+                    of projects that highlight the unique strengths and capabilities of each language. Below are a few
+                    examples of projects that demonstrate the power and versatility of C# and Python.
                 </motion.p>
             </div>
 
