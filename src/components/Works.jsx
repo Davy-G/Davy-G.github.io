@@ -24,7 +24,7 @@ const ProjectCard = ({
                     scale: 1,
                     speed: 450,
                 }}
-                className='bg-tertiary p-5 rounded-2xl sm:w-[360px] w-full'
+                className='bg-primary p-5 rounded-2xl sm:w-[360px] w-full'
             >
                 <div className='relative w-full h-[230px]'>
                     <img
@@ -49,7 +49,7 @@ const ProjectCard = ({
 
                 <div className='mt-5'>
                     <h3 className='text-white font-bold text-[24px]'>{name}</h3>
-                    <p className='mt-2 text-secondary text-[14px]'>{description}</p>
+                    <p className='mt-2 text-white text-[14px]'>{description}</p>
                 </div>
 
                 <div className='mt-4 flex flex-wrap gap-2'>
@@ -78,7 +78,7 @@ const Works = () => {
             <div className='w-full flex'>
                 <motion.p
                     variants={fadeIn("", "", 0.1, 1)}
-                    className='mt-3 text-secondary text-[17px] max-w-3xl leading-[30px]'
+                    className='mt-3 text-white text-[17px] max-w-3xl leading-[30px]'
                 >
                     As a developer with expertise in both C# and Python, I've had the opportunity to work on a variety of projects that highlight the unique strengths and capabilities of each language. Below are a few examples of projects that demonstrate the power and versatility of C# and Python.
                 </motion.p>

@@ -4,6 +4,10 @@
 @tailwind components;
 @tailwind utilities;
 
+.bg-primary{
+  background-color: #10182d;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -35,10 +39,10 @@
 
 .violet-gradient {
   background: #804dee;
-  background: linear-gradient(-90deg, #804dee 0%, rgba(60, 51, 80, 0) 100%);
+  background: linear-gradient(-90deg, #1a3b70 0%, rgba(60, 51, 80, 0) 100%);
   background: -webkit-linear-gradient(
           -90deg,
-          #804dee 0%,
+          #1a3b70 0%,
           rgba(60, 51, 80, 0) 100%
   );
 }

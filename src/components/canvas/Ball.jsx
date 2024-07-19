@@ -6,12 +6,12 @@ import CanvasLoader from '../Loader'
 const Ball = (props) => {
   const [decal] = useTexture([props.imgUrl])
   return (
-    <Float speed={1.75} rotationIntensity={1} floatIntensity={2}>
-      <ambientLight intensity={0.25}></ambientLight>
+    <Float speed={1.75} rotationIntensity={0.1} floatIntensity={2}>
+      <ambientLight intensity={1}></ambientLight>
       <directionalLight position={[0,0,0.05]}/>
-      <mesh castShadow receiveShadow scale={2.75}>
+      <mesh scale={2.75}>
         <icosahedronGeometry args={[1,1]}/>
-        <meshStandardMaterial color="#fff8eb"
+        <meshStandardMaterial color="#1a3b70"
         polygonOffset
         polygonOffsetFactor={-5}
         flatShading></meshStandardMaterial>

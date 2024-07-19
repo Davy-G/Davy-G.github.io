@@ -1,6 +1,6 @@
-import EarthCanvas from "./Earth.jsx";
+import TerminalCanvas from "./Terminal.jsx";
 import BallCanvas from "./Ball.jsx";
-import ComputersCanvas from "./Computers.jsx";
+import ComputersCanvas from "./Laptop.jsx";
 import StarsCanvas from "./Stars.jsx";
 
-export { EarthCanvas, BallCanvas, ComputersCanvas, StarsCanvas };
+export { TerminalCanvas, BallCanvas, ComputersCanvas, StarsCanvas };
